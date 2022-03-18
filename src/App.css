@@ -1,10 +1,27 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blank-content {
+  min-height: 300px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  background: yellow;
+}
+
+progress::-webkit-progress-bar {
+  background-color:rgb(206, 204, 204);
+}
+
+progress::-webkit-progress-value {
+  background-color: yellow;
 }
 
 @media (prefers-reduced-motion: no-preference) {
