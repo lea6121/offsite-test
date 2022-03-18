@@ -4,18 +4,21 @@ import { useDispatch, useSelector } from 'react-redux';
 import { status, setNavStatus } from '../../redux/reducers/statusReducer';
 
 const FirstHeader = styled.div`
-  background-color: rgb(57, 181, 230);
-  height: 60px;
+  background-color: rgb(74 154 225);
+  padding-top: 4px;
+  height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   h1 {
     color: white;
     margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
   }
   p {
-    color: white;
-    font-size: 30px;
+    color: grey;
+    font-size: 18px;
     font-weight: 700;
     margin-right: 10px;
     margin-bottom: 10px;

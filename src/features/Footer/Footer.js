@@ -2,14 +2,14 @@ import styled from 'styled-components'
 
 const FooterContainer = styled.div`
   background-color: grey;
-  height: 56px;
+  height: 50px;
   width: 100%;
   position: relative;
   footer {
     margin: 0 auto;
-    padding: 10px;
+    padding: 8px;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
   }
 `
